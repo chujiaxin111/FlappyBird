@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BeforeGame</class>
+ <widget class="QWidget" name="BeforeGame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>584</width>
+    <height>448</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>584</width>
+     <height>448</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>584</width>
+     <height>448</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>584</width>
+     <height>448</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="BirdSource.qrc">:/BirdGame/Resources/image/b1.jpg</pixmap>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="BirdSource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
